@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ShoppingListViewController.tableView(_:cellForRowAt:):ShoppingListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DataHolder.items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StoreChooserViewController.storeEntered(storeName:):StoreChooserViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stores">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemInfoTableViewController.tableView(_:cellForRowAt:):ItemInfoTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ItemInfoTableViewController.addItemAction(_:):ItemInfoTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "DataHolder.items">
+            </PersistentString>
+            <PersistentString
+               value = "item">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemInfoTableViewController.setItemFields():ItemInfoTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StoreChooserTableViewCell.storeEntered(_:):StoreChooserTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "storeNameField.delegate">
+            </PersistentString>
+            <PersistentString
+               value = "storeNameField.text!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StoreChooserViewController.prepare(for:sender:):StoreChooserViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destination">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShoppingListViewController.viewDidAppear(_:):ShoppingListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "items">
+            </PersistentString>
+            <PersistentString
+               value = "DataHolder.items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShoppingListViewController.prepare(for:sender:):ShoppingListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tableView.indexPathForSelectedRow">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShoppingListViewController.tableView(_:numberOfRowsInSection:):ShoppingListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StoreInfoTableViewController.tableView(_:cellForRowAt:):StoreInfoTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.storeLabel.text">
+            </PersistentString>
+            <PersistentString
+               value = "DataHolder.sharedInstance.stores">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemViewController.viewWillDisappear(_:):ItemViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemInfoView.itemName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemInfoTableViewController.viewDidLoad():ItemInfoTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "plusButton2">
+            </PersistentString>
+            <PersistentString
+               value = "plusButton">
+            </PersistentString>
+            <PersistentString
+               value = "subviews[2]">
+            </PersistentString>
+            <PersistentString
+               value = "pickerArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StoreChooserViewController.tableView(_:cellForRowAt:):StoreChooserViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.storeNameField">
+            </PersistentString>
+            <PersistentString
+               value = "cell.storeNameField.delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

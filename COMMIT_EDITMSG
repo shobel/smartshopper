@@ -1,0 +1,56 @@
+first commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   SmartShopper.xcodeproj/project.pbxproj
+#	new file:   SmartShopper.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+#	new file:   SmartShopper.xcodeproj/project.xcworkspace/xcuserdata/shobel.xcuserdatad/UserInterfaceState.xcuserstate
+#	new file:   SmartShopper.xcodeproj/project.xcworkspace/xcuserdata/shobel.xcuserdatad/xcdebugger/Expressions.xcexplist
+#	new file:   SmartShopper.xcodeproj/xcuserdata/shobel.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+#	new file:   SmartShopper.xcodeproj/xcuserdata/shobel.xcuserdatad/xcschemes/xcschememanagement.plist
+#	new file:   SmartShopper/AppDelegate.swift
+#	new file:   SmartShopper/Assets.xcassets/AppIcon.appiconset/Contents.json
+#	new file:   SmartShopper/Assets.xcassets/Contents.json
+#	new file:   SmartShopper/Assets.xcassets/list.imageset/Contents.json
+#	new file:   SmartShopper/Assets.xcassets/list.imageset/list.png
+#	new file:   SmartShopper/Assets.xcassets/list.imageset/list@2x.png
+#	new file:   SmartShopper/Assets.xcassets/list.imageset/list@3x.png
+#	new file:   SmartShopper/Assets.xcassets/order.imageset/Contents.json
+#	new file:   SmartShopper/Assets.xcassets/order.imageset/order.png
+#	new file:   SmartShopper/Assets.xcassets/order.imageset/order@2x.png
+#	new file:   SmartShopper/Assets.xcassets/order.imageset/order@3x.png
+#	new file:   SmartShopper/Assets.xcassets/plus.imageset/Contents.json
+#	new file:   SmartShopper/Assets.xcassets/plus.imageset/plus.png
+#	new file:   SmartShopper/Assets.xcassets/plus.imageset/plus@2x.png
+#	new file:   SmartShopper/Assets.xcassets/plus.imageset/plus@3x.png
+#	new file:   SmartShopper/Assets.xcassets/plus_green.imageset/Contents.json
+#	new file:   SmartShopper/Assets.xcassets/plus_green.imageset/plus_green.png
+#	new file:   SmartShopper/Assets.xcassets/plus_green.imageset/plus_green@2x.png
+#	new file:   SmartShopper/Assets.xcassets/plus_green.imageset/plus_green@3x.png
+#	new file:   SmartShopper/Assets.xcassets/shopping_cart.imageset/Contents.json
+#	new file:   SmartShopper/Assets.xcassets/shopping_cart.imageset/shopping_cart.png
+#	new file:   SmartShopper/Assets.xcassets/shopping_cart.imageset/shopping_cart@2x.png
+#	new file:   SmartShopper/Assets.xcassets/shopping_cart.imageset/shopping_cart@3x.png
+#	new file:   SmartShopper/Assets.xcassets/shopping_cart_loaded.imageset/Contents.json
+#	new file:   SmartShopper/Assets.xcassets/shopping_cart_loaded.imageset/shopping_cart_loaded.png
+#	new file:   SmartShopper/Assets.xcassets/shopping_cart_loaded.imageset/shopping_cart_loaded@2x.png
+#	new file:   SmartShopper/Assets.xcassets/shopping_cart_loaded.imageset/shopping_cart_loaded@3x.png
+#	new file:   SmartShopper/Base.lproj/LaunchScreen.storyboard
+#	new file:   SmartShopper/Base.lproj/Main.storyboard
+#	new file:   SmartShopper/Controllers/ItemInfoTableViewController.swift
+#	new file:   SmartShopper/Controllers/PickerViewController.swift
+#	new file:   SmartShopper/Controllers/ShoppingListViewController.swift
+#	new file:   SmartShopper/Controllers/StoreChooserViewController.swift
+#	new file:   SmartShopper/Info.plist
+#	new file:   SmartShopper/Models/DataHolder.swift
+#	new file:   SmartShopper/Models/Item.swift
+#	new file:   SmartShopper/Views/StoreChooserTableViewCell.swift
+#	new file:   SmartShopperTests/Info.plist
+#	new file:   SmartShopperTests/SmartShopperTests.swift
+#	new file:   SmartShopperUITests/Info.plist
+#	new file:   SmartShopperUITests/SmartShopperUITests.swift
+#

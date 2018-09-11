@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ShoppingListViewController.viewDidAppear(_:):ShoppingListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "startEndShoppingButton.isHidden">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StoreSetupViewController.tableView(_:willSelectRowAt:):StoreSetupViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "StoreSetupViewController.storeEntered(storeName:):StoreSetupViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stores">
+            </PersistentString>
+            <PersistentString
+               value = "currentStoreIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StoreSetupViewController.tableView(_:didDeselectRowAt:):StoreSetupViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "StoreSetupViewController.viewDidAppear(_:):StoreSetupViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "first">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShoppingListViewController.startEndShoppingAction(_:):ShoppingListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shoppingMode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

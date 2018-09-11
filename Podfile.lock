@@ -1,0 +1,16 @@
+PODS:
+  - EasyToast (2.0.2)
+
+DEPENDENCIES:
+  - EasyToast
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - EasyToast
+
+SPEC CHECKSUMS:
+  EasyToast: 2844de2158fe8d2313c6de81b5a858a909d82532
+
+PODFILE CHECKSUM: 77607ae029df559fe8a1dce67fed8b8b4e70275f
+
+COCOAPODS: 1.5.0
