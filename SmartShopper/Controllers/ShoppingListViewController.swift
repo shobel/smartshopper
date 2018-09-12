@@ -19,6 +19,7 @@ class ShoppingListViewController: UITableViewController {
     
     @IBOutlet weak var startEndShoppingButton: UIButton!
     @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var moveAllButton: UIButton!
     
     var isFullList = false
     var items : [Item] = []
@@ -42,6 +43,14 @@ class ShoppingListViewController: UITableViewController {
         if (searchBar != nil) {
             searchBar.autocapitalizationType = .none
             searchBar.delegate = self
+        }
+        if (moveAllButton != nil){
+            moveAllButton.layer.cornerRadius = 10
+            moveAllButton.clipsToBounds = true
+        }
+        if (startEndShoppingButton != nil) {
+            startEndShoppingButton.layer.cornerRadius = 10
+            startEndShoppingButton.clipsToBounds = true
         }
     }
     
@@ -77,6 +86,12 @@ class ShoppingListViewController: UITableViewController {
                 startEndShoppingButton.isHidden = true
             } else {
                 startEndShoppingButton.isHidden = false
+            }
+        }
+        if (moveAllButton != nil){
+            moveAllButton.isHidden = true
+            if (items.count > 0) {
+                moveAllButton.isHidden = false
             }
         }
     }
@@ -224,5 +239,14 @@ class ShoppingListViewController: UITableViewController {
                 self.items.append(item)
             }
         }
+    }
+    
+    @IBAction func moveAll(_ sender: Any) {
+        for item in DataHolder.currentShoppingList{
+            DataHolder.items.append(item)
+        }
+        DataHolder.currentShoppingList.removeAll()
+        reloadData()
+        moveAllButton.isHidden = true
     }
 }

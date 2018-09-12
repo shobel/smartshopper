@@ -66,8 +66,14 @@ class DataHolder {
     }
     
     public static func loadData(){
-        self.items = (NSKeyedUnarchiver.unarchiveObject(withFile: getFile(objectName: "fullList")) as? [Item])!
-        self.currentShoppingList = (NSKeyedUnarchiver.unarchiveObject(withFile: getFile(objectName: "shoppingList")) as? [Item])!
-        self.stores = (NSKeyedUnarchiver.unarchiveObject(withFile: getFile(objectName: "stores")) as? [String])!
+        if let items = NSKeyedUnarchiver.unarchiveObject(withFile: getFile(objectName: "fullList")) {
+            self.items = items as! [Item]
+        }
+        if let currentList = NSKeyedUnarchiver.unarchiveObject(withFile: getFile(objectName: "shoppingList")) {
+            self.currentShoppingList = currentList as! [Item]
+        }
+        if let stores = NSKeyedUnarchiver.unarchiveObject(withFile: getFile(objectName: "stores")) {
+            self.stores = stores as! [String]
+        }
     }
 }

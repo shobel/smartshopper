@@ -19,10 +19,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.92355889782881861" green="0.96788941263738804" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" barStyle="black" searchBarStyle="minimal" placeholder="Search" id="d0C-MD-utJ">
+                        <searchBar key="tableHeaderView" contentMode="redraw" searchBarStyle="minimal" placeholder="Search" translucent="NO" id="d0C-MD-utJ">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.001508042449" green="0.26915359500000002" blue="0.4933912754" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                         </searchBar>
                         <prototypes>
@@ -487,7 +486,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9Z-aM-af2">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="5" y="5" width="365" height="34"/>
                                     <color key="backgroundColor" red="0.0055330758914351463" green="0.26915076375007629" blue="0.49338728189468384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="Start Shopping">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -497,14 +496,35 @@
                                     </connections>
                                 </button>
                             </subviews>
-                            <color key="backgroundColor" red="0.0055330758909999996" green="0.26915076380000003" blue="0.49338728189999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstItem="p9Z-aM-af2" firstAttribute="centerY" secondItem="hpZ-YI-si1" secondAttribute="centerY" id="396-Y9-0Lp"/>
-                                <constraint firstItem="p9Z-aM-af2" firstAttribute="centerX" secondItem="hpZ-YI-si1" secondAttribute="centerX" id="KOg-jb-i0L"/>
-                                <constraint firstItem="p9Z-aM-af2" firstAttribute="top" secondItem="hpZ-YI-si1" secondAttribute="top" id="KWc-OK-Nvs"/>
-                                <constraint firstAttribute="trailing" secondItem="p9Z-aM-af2" secondAttribute="trailing" id="dAQ-ed-U5q"/>
-                                <constraint firstItem="p9Z-aM-af2" firstAttribute="leading" secondItem="hpZ-YI-si1" secondAttribute="leading" id="jMU-Po-YF3"/>
-                                <constraint firstAttribute="bottom" secondItem="p9Z-aM-af2" secondAttribute="bottom" id="nN0-XJ-lAJ"/>
+                                <constraint firstAttribute="trailing" secondItem="p9Z-aM-af2" secondAttribute="trailing" constant="5" id="CFE-WV-NA2"/>
+                                <constraint firstItem="p9Z-aM-af2" firstAttribute="top" secondItem="hpZ-YI-si1" secondAttribute="top" constant="5" id="Tib-rA-Pgg"/>
+                                <constraint firstAttribute="bottom" secondItem="p9Z-aM-af2" secondAttribute="bottom" constant="5" id="eTD-FI-1gy"/>
+                                <constraint firstItem="p9Z-aM-af2" firstAttribute="leading" secondItem="hpZ-YI-si1" secondAttribute="leading" constant="5" id="iDQ-eI-Jsd"/>
+                            </constraints>
+                        </view>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="fuO-oh-tdq">
+                            <rect key="frame" x="0.0" y="116" width="375" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmY-mc-xfQ">
+                                    <rect key="frame" x="5" y="20" width="365" height="40"/>
+                                    <color key="backgroundColor" red="0.001508042449131608" green="0.26915359497070312" blue="0.49339127540588379" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="Move all items back to full list">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="moveAll:" destination="itc-Di-jSm" eventType="touchUpInside" id="xNf-ZU-8bB"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="xmY-mc-xfQ" firstAttribute="top" secondItem="fuO-oh-tdq" secondAttribute="top" constant="20" id="0kh-32-zxi"/>
+                                <constraint firstItem="xmY-mc-xfQ" firstAttribute="leading" secondItem="fuO-oh-tdq" secondAttribute="leading" constant="5" id="5b8-gW-CkC"/>
+                                <constraint firstAttribute="bottom" secondItem="xmY-mc-xfQ" secondAttribute="bottom" id="eVI-fD-HO5"/>
+                                <constraint firstItem="xmY-mc-xfQ" firstAttribute="centerX" secondItem="fuO-oh-tdq" secondAttribute="centerX" id="rw0-vI-qNL"/>
                             </constraints>
                         </view>
                         <prototypes>
@@ -549,6 +569,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="moveAllButton" destination="xmY-mc-xfQ" id="Occ-Ym-4aU"/>
                         <outlet property="startEndShoppingButton" destination="p9Z-aM-af2" id="uOA-i5-Eip"/>
                     </connections>
                 </viewController>
@@ -565,15 +586,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dKJ-eP-NP4">
-                                <rect key="frame" x="62" y="140" width="250" height="250"/>
+                                <rect key="frame" x="62" y="140" width="250" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="1bX-hy-nk5"/>
+                                    <constraint firstAttribute="height" constant="300" id="1bX-hy-nk5"/>
                                     <constraint firstAttribute="width" constant="250" id="gGl-sK-N0t"/>
                                 </constraints>
+                                <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where are you shopping at?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n2c-0H-vDX">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.001508042449131608" green="0.26915359497070312" blue="0.49339127540588379" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="nTf-Tv-pdM">
+                                    <rect key="frame" x="0.0" y="102" width="250" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPY-oP-z09">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="44"/>
+                                            <state key="normal" title="Cancel"/>
+                                            <connections>
+                                                <action selector="cancelAction:" destination="EpX-ee-M5m" eventType="touchUpInside" id="IHk-x7-mxZ"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="CPY-oP-z09" firstAttribute="top" secondItem="nTf-Tv-pdM" secondAttribute="top" id="3Fl-fk-nrJ"/>
+                                        <constraint firstAttribute="bottom" secondItem="CPY-oP-z09" secondAttribute="bottom" id="BPh-he-ZDB"/>
+                                        <constraint firstAttribute="trailing" secondItem="CPY-oP-z09" secondAttribute="trailing" id="Ee2-UL-zv1"/>
+                                        <constraint firstItem="CPY-oP-z09" firstAttribute="leading" secondItem="nTf-Tv-pdM" secondAttribute="leading" id="e7X-ok-BSf"/>
+                                    </constraints>
+                                </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="storeCell" id="czw-Jw-197">
-                                        <rect key="frame" x="0.0" y="28" width="250" height="44"/>
+                                        <rect key="frame" x="0.0" y="58" width="250" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="czw-Jw-197" id="so7-ur-HEJ">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="44"/>

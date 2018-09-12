@@ -44,4 +44,9 @@ class StoreSelectorViewController: UIViewController, UITableViewDelegate, UITabl
             respondTo.setItems(selectedStore!)
         }
     }
+
+    @IBAction func cancelAction(_ sender: Any) {
+        self.view.removeFromSuperview()
+    }
+    
 }
